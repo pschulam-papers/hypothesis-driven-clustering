@@ -7,7 +7,7 @@ clean:
 	rm -f $(NAME).aux
 	rm -f $(NAME).log
 
-view:
+view: all
 	open $(NAME).pdf
 
 $(NAME).pdf: $(NAME).tex
